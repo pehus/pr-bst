@@ -29,7 +29,7 @@ class Group
 
         foreach ($records as $record) 
         {
-            list($name, $gender, $birth_date_str) = explode("\n", $record);
+            list($name, $gender, $birthDateStr) = explode("\n", $record);
             list($firstName, $lastName) = explode(" ", $name);
 
             $person = new Person(count($this->people) + 1, $firstName, $lastName, trim($gender), trim($birthDateStr));
