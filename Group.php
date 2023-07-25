@@ -44,8 +44,8 @@ class Group
 
     public function getPercentageByGender($gender) 
     {
-        $total_people = count($this->people);
-        if ($total_people === 0) 
+        $totalPeople = count($this->people);
+        if ($totalPeople === 0) 
         {
             return 0;
         }
