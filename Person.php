@@ -14,7 +14,7 @@ class Person {
     {
         $this->id = $id;
         $this->firstName = $firstName;
-        $this->last_name = $lastName;
+        $this->lastNname = $lastName;
         $this->gender = $gender;
         $this->birthDate = DateTime::createFromFormat('d.m.Y', $birthDate);
     }
